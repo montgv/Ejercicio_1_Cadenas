@@ -8,8 +8,8 @@
             Console.WriteLine("Escribe una cadena: ");
             entrada = Console.ReadLine();
 
-            foreach(String caracter : entrada) {
-
+            foreach(char caracter in entrada) {
+                Console.WriteLine(caracter);
             }
         }
     }
